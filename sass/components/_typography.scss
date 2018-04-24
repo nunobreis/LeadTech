@@ -1,0 +1,35 @@
+$heading-font-family: 'Montserrat', sans-serif;
+$heading-font-size: 34px;
+$heading-font-weight: 700;
+
+$base-font-family: 'Merriweather', AndaleMono, serif;
+$base-font-subtitle: 16px;
+$base-font-hashtags: 14px;
+$base-font-buttons: 12px;
+$base-font-weight: 400;
+
+@mixin heading {
+  font-family: $heading-font-family;
+  font-size: $heading-font-size;
+  font-weight: $heading-font-weight;
+}
+
+@mixin subtitle {
+  font-family: $base-font-family;
+  font-size: $base-font-subtitle;
+  font-weight: $base-font-weight;
+}
+
+@mixin hashtags {
+  font-family: $base-font-family;
+  font-size: $base-font-hashtags;
+  font-weight: $base-font-weight;
+  font-style: italic;
+}
+
+@mixin slider__buttons {
+  font-family: $base-font-family;
+  font-size: $base-font-buttons;
+  font-weight: $base-font-weight;
+  font-style: italic;
+}

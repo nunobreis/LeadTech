@@ -9,6 +9,7 @@
   "author": "Nuno Reis",
   "license": "ISC",
   "devDependencies": {
+    "eslint-config-rallycoding": "^3.2.0",
     "grunt": "^1.0.2",
     "grunt-contrib-cssmin": "^2.2.0",
     "grunt-sass": "^2.0.0"
