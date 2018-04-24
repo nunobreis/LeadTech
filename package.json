@@ -1,0 +1,16 @@
+{
+  "name": "solution",
+  "version": "1.0.0",
+  "description": "It is going to be responsible for tasks such as minifying the css and compiling SASS into CSS so that developers don't have to keep running SASS watches and other reptitive tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nuno Reis",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
