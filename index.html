@@ -12,30 +12,37 @@
   <body>
     <div id="main-container" class="row">
 
-      <nav id="moon-navbar" class="navbar navbar-light bg-light">
+      <nav id="moon-navbar" class="navbar">
         <a class="navbar-brand" href="#">
           <img src="static/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
           LeadTech
         </a>
       </nav> <!-- End of navbar-->
 
-      <!-- <h1 id="visa-title">Visa to the moon</h1> -->
       <div id="slider-wrapper" class="row">
         <ul id="slider" class="col-sm-12">
           <li id="slide-1" class="active animated">
+            <h1 id="visa-title">Visa to the moon</h1>
           </li>
           <li id="slide-2" class="animated">
           </li>
           <li id="slide-3" class="animated">
           </li>
         </ul>
-
       </div><!-- End of Slider Wrapper -->
 
-      <div class="navigation-wrapper col-sm-12">
-        <button type="button" id="previous" class="btn btn-link">Prev</button>
-        <button type="button" id="view-ease" class="btn btn-link">View Ease</button>
-        <button type="button" id="next" class="btn btn-link">Next</button>
+      <div id="navigation-wrapper" class="col-sm-12">
+        <div class="progress-wrapper">
+          <div class="bar-wrapper">
+            <div class="bar"></div>
+          </div>
+        </div>
+
+        <div id="controllers-wrapper">
+          <button type="button" id="previous" class="btn btn-link">Prev</button>
+          <button type="button" id="view-ease" class="btn btn-link">View Ease</button>
+          <button type="button" id="next" class="btn btn-link">Next</button>
+        </div>
       </div><!-- End of navigation -->
 
     </div><!-- End of Main Container -->
