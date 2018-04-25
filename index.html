@@ -6,74 +6,45 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i|Montserrat:700" rel="stylesheet"
     >
+    <link rel="stylesheet" href="css/libs/animate.css">
     <link rel="stylesheet" href="css/styles.min.css">
   </head>
   <body>
+    <div id="main-container" class="row">
 
-    <div class="main-wrapper">
-      <div id="title">
-        <h1 id="visa-title">Visa to the moon</h1>
-      </div>
+      <nav id="moon-navbar" class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img src="static/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          LeadTech
+        </a>
+      </nav> <!-- End of navbar-->
 
-      <div id="slider-wrap">
-      	  <ul id="slider">
-          	 <li data-color="#1abc9c">
-                <div>
-                    <h3>Slide #1</h3>
-                    <span>Sub-title #1</span>
-                </div>
-             </li>
+      <!-- <h1 id="visa-title">Visa to the moon</h1> -->
+      <div id="slider-wrapper" class="row">
+        <ul id="slider" class="col-sm-12">
+          <li id="slide-1" class="active animated">
+          </li>
+          <li id="slide-2" class="animated">
+          </li>
+          <li id="slide-3" class="animated">
+          </li>
+        </ul>
 
-             <li data-color="#3498db">
-                <div>
-                    <h3>Slide #2</h3>
-                    <span>Sub-title #2</span>
-                </div>
-             </li>
+      </div><!-- End of Slider Wrapper -->
 
-             <li data-color="#9b59b6">
-                <div>
-                    <h3>Slide #3</h3>
-                    <span>Sub-title #3</span>
-                </div>
-             </li>
+      <div class="navigation-wrapper col-sm-12">
+        <button type="button" id="previous" class="btn btn-link">Prev</button>
+        <button type="button" id="view-ease" class="btn btn-link">View Ease</button>
+        <button type="button" id="next" class="btn btn-link">Next</button>
+      </div><!-- End of navigation -->
 
-             <li data-color="#34495e">
-                <div>
-                    <h3>Slide #4</h3>
-                    <span>Sub-title #4</span>
-                </div>
-             </li>
-
-             <li data-color="#e74c3c">
-                <div>
-                    <h3>Slide #5</h3>
-                    <span>Sub-title #5</span>
-                </div>
-             </li>
-
-
-          </ul>
-
-           <!--controls-->
-          <div class="btns" id="next"><i class="fa fa-arrow-right"></i></div>
-          <div class="btns" id="previous"><i class="fa fa-arrow-left"></i></div>
-          <div id="counter"></div>
-
-          <div id="pagination-wrap">
-            <ul>
-            </ul>
-          </div>
-          <!--controls-->
-
-      </div>
-    </div> <!-- End of Main Wrapper-->
+    </div><!-- End of Main Container -->
 
 
     <script src="js/libs/jquery-3.1.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
-  </body>
+  </body><!-- End of body -->
 
 </html>
