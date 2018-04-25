@@ -1,7 +1,13 @@
 body {
-  background-color: #f9f9f9; }
+  background-color: #1e4c4b;
+  color: #fff; }
 
-h1 {
+.main-wrapper {
+  max-width: 1140px; }
+
+#visa-title {
   font-family: "Montserrat", sans-serif;
-  font-size: 34px;
-  font-weight: 700; }
+  font-size: 64px;
+  font-weight: 700;
+  max-width: 340px;
+  line-height: .8; }

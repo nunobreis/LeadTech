@@ -2,63 +2,77 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link
-    href="https://fonts.googleapis.com/css?family=Merriweather:400,400i|Montserrat:700"
-    rel="stylesheet"
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i|Montserrat:700" rel="stylesheet"
     >
     <link rel="stylesheet" href="css/styles.min.css">
   </head>
   <body>
-    <div id="title">
-      <h1>LeadTech Solution</h1>
-    </div>
+
+    <div class="main-wrapper">
+      <div id="title">
+        <h1 id="visa-title">Visa to the moon</h1>
+      </div>
+
+      <div id="slider-wrap">
+      	  <ul id="slider">
+          	 <li data-color="#1abc9c">
+                <div>
+                    <h3>Slide #1</h3>
+                    <span>Sub-title #1</span>
+                </div>
+             </li>
+
+             <li data-color="#3498db">
+                <div>
+                    <h3>Slide #2</h3>
+                    <span>Sub-title #2</span>
+                </div>
+             </li>
+
+             <li data-color="#9b59b6">
+                <div>
+                    <h3>Slide #3</h3>
+                    <span>Sub-title #3</span>
+                </div>
+             </li>
+
+             <li data-color="#34495e">
+                <div>
+                    <h3>Slide #4</h3>
+                    <span>Sub-title #4</span>
+                </div>
+             </li>
+
+             <li data-color="#e74c3c">
+                <div>
+                    <h3>Slide #5</h3>
+                    <span>Sub-title #5</span>
+                </div>
+             </li>
 
 
-    <section class="section slider">
+          </ul>
 
-    <input type="radio" name="slider" id="slide-1" class="slider__radio">
-    <input type="radio" name="slider" id="slide-2" class="slider__radio">
-    <input type="radio" name="slider" id="slide-3" class="slider__radio" checked>
-    <input type="radio" name="slider" id="slide-4" class="slider__radio">
-    <input type="radio" name="slider" id="slide-5" class="slider__radio">
+           <!--controls-->
+          <div class="btns" id="next"><i class="fa fa-arrow-right"></i></div>
+          <div class="btns" id="previous"><i class="fa fa-arrow-left"></i></div>
+          <div id="counter"></div>
 
-    <div class="slider__holder">
+          <div id="pagination-wrap">
+            <ul>
+            </ul>
+          </div>
+          <!--controls-->
 
-       <label for="slide-1" class="slider__item slider__item--1 card">
-            Card 1
-       </label>
+      </div>
+    </div> <!-- End of Main Wrapper-->
 
-        <label for="slide-2" class="slider__item slider__item--2 card">
-            Card 2
-       </label>
-
-        <label for="slide-3" class="slider__item slider__item--3 card">
-            Card 3
-       </label>
-
-        <label for="slide-4" class="slider__item slider__item--4 card">
-            Card 4
-       </label>
-
-        <label for="slide-5" class="slider__item slider__item--5 card">
-            Card 5
-       </label>
-
-    </div><!-- slider__holder -->
-
-    <div class="bullets">
-
-      <label for="slide-1" class="bullets__item bullets__item--1">#1</label>
-      <label for="slide-2" class="bullets__item bullets__item--2">#2</label>
-      <label for="slide-3" class="bullets__item bullets__item--3">#3</label>
-    	<label for="slide-4" class="bullets__item bullets__item--4">#4</label>
-    	<label for="slide-5" class="bullets__item bullets__item--5">#5</label>
-
-    </div> <!-- Bullets -->
-
-    </section><!-- End of section slider -->
 
     <script src="js/libs/jquery-3.1.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
   </body>
 
