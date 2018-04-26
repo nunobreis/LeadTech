@@ -17,11 +17,6 @@ body {
     position: absolute;
     top: 50%;
     left: 10%; }
-  body #visa-sub-title {
-    font-family: "Merriweather", AndaleMono, serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1; }
   body ul {
     list-style: none; }
   body #moon-navbar {
@@ -48,12 +43,33 @@ body {
         background-image: url("../assets/images/background.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center; }
+        background-position: center bottom; }
       body #slider-wrapper #slider #slide-2 {
         background-image: url("../assets/images/rock.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center; }
+        body #slider-wrapper #slider #slide-2 .slide-content {
+          position: relative;
+          top: 40%;
+          left: 5%; }
+        body #slider-wrapper #slider #slide-2 #visa-sub-title {
+          font-family: "Merriweather", serif;
+          font-size: 26px;
+          font-weight: 400;
+          line-height: 1.8; }
+        body #slider-wrapper #slider #slide-2 .separator {
+          height: 4px;
+          width: 10%;
+          background-color: #2dae87;
+          position: absolute; }
+        body #slider-wrapper #slider #slide-2 #hashtags {
+          font-family: "Merriweather Italic", serif;
+          font-size: 24px;
+          font-weight: 400;
+          font-style: italic;
+          margin-top: 15px;
+          letter-spacing: .8px; }
       body #slider-wrapper #slider #slide-3 {
         background-image: url("../assets/images/rocket.png");
         background-repeat: no-repeat;
@@ -64,7 +80,7 @@ body {
     margin: 40px auto 0; }
   body .bar-wrapper {
     overflow: hidden;
-    height: 18px;
+    height: 2px;
     background-color: #fff;
     border-radius: 2px; }
   body .bar {
@@ -79,12 +95,52 @@ body {
     transition: width 0.6s ease; }
   body #navigation-wrapper {
     background-color: #1c1e2c;
-    text-align: center;
-    padding-bottom: 30px; }
+    text-align: center; }
     body #navigation-wrapper .btn.btn-link {
       color: #2dae87; }
     body #navigation-wrapper #controllers-wrapper {
-      margin-top: 40px; }
+      margin-top: 30px;
+      margin-bottom: 10px; }
       body #navigation-wrapper #controllers-wrapper #view-ease {
         color: #fff;
         text-decoration: underline; }
+  body #footer {
+    background-color: #1c1e2c;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 10px; }
+    body #footer .btn-link {
+      color: #2dae87;
+      font-size: 13px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      line-height: 1.5; }
+
+@media only screen and (max-width: 1024px) {
+  body #visa-title {
+    font-size: 44px;
+    line-height: .9; }
+  body #slider-wrapper #slider #slide-2 img {
+    max-width: 74px; }
+  body #slider-wrapper #slider #slide-2 #visa-sub-title {
+    margin-top: 5px;
+    font-size: 18px;
+    line-height: 1.6; }
+  body #slider-wrapper #slider #slide-2 #hashtags {
+    font-size: 14px; } }
+
+@media only screen and (max-width: 480px) {
+  body #visa-title {
+    font-size: 32px;
+    line-height: 1;
+    max-width: 250px; }
+  body #slider-wrapper #slider #slide-2 img {
+    max-width: 60px; }
+  body #slider-wrapper #slider #slide-2 #visa-sub-title {
+    font-size: 16px;
+    line-height: 1.4; }
+  body #slider-wrapper #slider #slide-2 .separator {
+    width: 15%; }
+  body #slider-wrapper #slider #slide-2 #hashtags {
+    font-size: 12px; } }

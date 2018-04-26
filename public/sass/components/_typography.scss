@@ -2,9 +2,10 @@ $heading-font-family: 'Montserrat', sans-serif;
 $heading-font-size: 64px;
 $heading-font-weight: 700;
 
-$base-font-family: 'Merriweather', AndaleMono, serif;
-$base-font-subtitle: 18px;
-$base-font-hashtags: 14px;
+$base-font-family: 'Merriweather', serif;
+$base-italic-font-family: 'Merriweather Italic', serif;
+$base-font-subtitle: 26px;
+$base-font-hashtags: 24px;
 $base-font-buttons: 12px;
 $base-font-weight: 400;
 
@@ -21,7 +22,7 @@ $base-font-weight: 400;
 }
 
 @mixin hashtags {
-  font-family: $base-font-family;
+  font-family: $base-italic-font-family;
   font-size: $base-font-hashtags;
   font-weight: $base-font-weight;
   font-style: italic;

@@ -27,12 +27,6 @@ body {
     left: 10%;
   }
 
-  #visa-sub-title {
-    @include subtitle;
-    line-height: 1;
-
-  }
-
   ul {
     list-style: none;
   }
@@ -69,7 +63,7 @@ body {
         background-image: url("../assets/images/background.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: center bottom;
       }
 
       #slide-2 {
@@ -77,6 +71,31 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
+
+        .slide-content {
+          position: relative;
+          top: 40%;
+          left: 5%;
+        }
+
+        #visa-sub-title {
+          @include subtitle;
+          line-height: 1.8;
+        }
+
+        .separator {
+          height: 4px;
+          width: 10%;
+          background-color: $primary-color-ascendant;
+          position: absolute;
+        }
+
+        #hashtags {
+          @include hashtags;
+          margin-top: 15px;
+          letter-spacing: .8px;
+        }
+
       }
 
       #slide-3 {
@@ -85,6 +104,7 @@ body {
         background-size: cover;
         background-position: center;
       }
+
     }
   }
 
@@ -95,7 +115,7 @@ body {
 
   .bar-wrapper {
     overflow: hidden;
-    height: 18px;
+    height: 2px;
     background-color: $white;
     border-radius: 2px;
   }
@@ -117,14 +137,14 @@ body {
   #navigation-wrapper {
     background-color: $secondary-color;
     text-align: center;
-    padding-bottom: 30px;
 
     .btn.btn-link {
       color: $primary-color-ascendant;
     }
 
     #controllers-wrapper {
-      margin-top: 40px;
+      margin-top: 30px;
+      margin-bottom: 10px;
 
       #view-ease {
         color: $white;
@@ -133,4 +153,75 @@ body {
     }
   }
 
+  #footer {
+    background-color: $secondary-color;
+    color: $white;
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 10px;
+
+    .btn-link {
+      color: $primary-color-ascendant;
+      font-size: 13px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      line-height: 1.5;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    #visa-title {
+      font-size: 44px;
+      line-height: .9;
+    }
+
+    #slider-wrapper #slider #slide-2 {
+      img {
+        max-width: 74px;
+      }
+
+      #visa-sub-title {
+        margin-top: 5px;
+        font-size: 18px;
+        line-height: 1.6;
+      }
+
+      #hashtags {
+        font-size: 14px;
+      }
+    }
+
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    #visa-title {
+      font-size: 32px;
+      line-height: 1;
+      max-width: 250px;
+    }
+
+    #slider-wrapper #slider #slide-2 {
+      img {
+        max-width: 60px;
+      }
+
+      #visa-sub-title {
+        font-size: 16px;
+        line-height: 1.4;
+      }
+
+      .separator {
+        width: 15%;
+      }
+
+      #hashtags {
+        font-size: 12px;
+      }
+    }
+
+  }
 }
