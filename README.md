@@ -13,3 +13,4 @@ To get up and running with **Visa To The Moon** do the following steps:
 2. Run `npm install` to get the Node Modules;
 3. On your terminal and in the project's main root run `node server/server.js`; 
 4. The message `Server is up on port 3000` should printed on your terminal and you should be able to go to: [http://localhost:3000/](http://localhost:3000/) and see the project running;
+5. See a live demo [here](https://young-harbor-93714.herokuapp.com/)
