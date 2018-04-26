@@ -3,8 +3,9 @@
     [{
       "bgImage": "assets/images/background.jpg",
       "iconTrip": "assets/images/icon_rocket.png",
+      "rock": "assets/images/rock.jpg",
       "logo": "assets/images/logo.png",
-      "imageRocket": "assets/images/rocket.jpg",
+      "imageRocket": "assets/images/rocket.png",
       "title" : "Visa to the Moon",
       "subtitle" : "Your trip start here",
       "hash" : "#moontrip #visamoon #moontickets",

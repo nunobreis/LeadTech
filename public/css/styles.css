@@ -45,17 +45,17 @@ body {
       body #slider-wrapper #slider li.active {
         display: inline-block; }
       body #slider-wrapper #slider #slide-1 {
-        background-image: url("../static/img/background.jpg");
+        background-image: url("../assets/images/background.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center; }
       body #slider-wrapper #slider #slide-2 {
-        background-image: url("../static/img/rock.jpg");
+        background-image: url("../assets/images/rock.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center; }
       body #slider-wrapper #slider #slide-3 {
-        background-image: url("../static/img/rocket.png");
+        background-image: url("../assets/images/rocket.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center; }

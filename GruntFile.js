@@ -7,9 +7,9 @@ module.exports = function(grunt) {
             dist: {
                 files: [{
                     expand: true,
-                    cwd: 'sass/',
+                    cwd: 'public/sass/',
                     src: ['*.scss'],
-                    dest: 'css/',
+                    dest: 'public/css/',
                     ext: ['.css']
                 }]
             }
@@ -21,7 +21,7 @@ module.exports = function(grunt) {
             },
             target: {
                 files: {
-                    'css/styles.min.css': ['css/styles.css']
+                    'public/css/styles.min.css': ['public/css/styles.css']
                 }
             }
         }
