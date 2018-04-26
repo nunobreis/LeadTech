@@ -17,6 +17,11 @@ body {
     position: absolute;
     top: 50%;
     left: 10%; }
+  body #visa-sub-title {
+    font-family: "Merriweather", AndaleMono, serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1; }
   body ul {
     list-style: none; }
   body #moon-navbar {

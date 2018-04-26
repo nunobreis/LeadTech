@@ -27,6 +27,12 @@ body {
     left: 10%;
   }
 
+  #visa-sub-title {
+    @include subtitle;
+    line-height: 1;
+    
+  }
+
   ul {
     list-style: none;
   }
